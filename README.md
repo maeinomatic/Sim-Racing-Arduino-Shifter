@@ -11,3 +11,5 @@ for the arduino pro micro, the limit switch for the gears are to be connected as
 NC pin of the switches to the pins 2-9 on the arduino 
 COM pin of the switches to ground
 
+
+
