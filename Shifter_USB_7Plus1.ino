@@ -19,7 +19,7 @@ void setup() {
 void loop() {
   // Read button states and update Joystick buttons
   for (int i = 0; i < 8; i++) {
-    Joystick.setButton(i + 0, !digitalRead(buttonPins[i])); // Button numbering starts from 1
+    Joystick.setButton(i + 0, !digitalRead(buttonPins[i]));
   }
 
   // Send Joystick state
